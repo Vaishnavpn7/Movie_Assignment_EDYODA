@@ -1,0 +1,31 @@
+
+.main{
+
+    background-color: rgb(212, 110, 21);
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_2{
+    display: flex;
+    gap: 16px;
+
+}
+
+.button {
+    padding: 6px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.heading {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 212, 255);
+    letter-spacing: 4px;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}

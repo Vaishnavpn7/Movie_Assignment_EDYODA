@@ -1,0 +1,59 @@
+.container{
+
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+
+}
+
+.movie_container{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    flex-direction: row;
+
+}
+
+.movie_cards {
+
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.movie_cards img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.movie_container :hover{
+    scale: 1.1;
+    transition: 0.3s;
+    animation: ease-in-out;
+}
+
+.movie_text {
+
+    padding: 16px;
+}
+
+.search {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.search input{
+
+    padding: 16px;
+    width: 400px;
+    margin: auto;
+
+}
